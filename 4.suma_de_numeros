@@ -1,0 +1,13 @@
+
+Algoritmo suma_de_numeros
+    Definir numero Como Entero
+    Definir suma Como Entero
+    suma = 0
+    repetir
+        Escribir "Ingrese un numero: "
+        Leer numero
+        suma = suma + numero
+    Hasta Que numero = 0
+    Escribir "La suma de los numeros ingresados es: ", suma
+FinAlgoritmo
+
