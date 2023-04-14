@@ -1,0 +1,22 @@
+
+	Algoritmo PROGRAMA_ACCESO_USUARIO
+		Definir Usuario Como Caracter 
+		Definir Clave Como entero
+		Repetir
+			Escribir "Ingrese Su Usuario"
+			Leer Usuario 
+			Si Usuario <> "walter" Entonces
+				Escribir "Usuario incorrecto"
+			FinSi
+		Hasta Que Usuario = "walter"
+		Repetir
+			Escribir "Ingrese Su Clave"
+			Leer Clave
+			Si Clave <> 1234 Entonces
+				Escribir "Clave incorrecta"
+			FinSi
+		Hasta Que Clave = 1234
+		Escribir "Bienvenido"
+FinAlgoritmo
+		
+
