@@ -1,0 +1,21 @@
+
+	Algoritmo PROGRAMA_ACCESO_USUARIO
+		Definir inicio, final, suma Como Entero
+		Definir opciones Como Caracter
+		Repetir
+			Escribir "Ingrese el término inicial de la serie: "
+			Leer inicio
+			Escribir "Ingrese el término final de la serie: "
+			Leer final
+			suma = 0
+			Para i = inicio Hasta final Con Paso 1
+				suma = suma + i
+			FinPara
+			Escribir "La suma de la serie es: ", suma
+			Escribir "¿Desea ingresar otra serie? (S/N)"
+			Leer opciones
+		Hasta Que opciones = "N"
+		Escribir "Programa finalizado."
+FinAlgoritmo
+		
+
