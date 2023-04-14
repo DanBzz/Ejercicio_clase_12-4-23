@@ -1,0 +1,23 @@
+
+Algoritmo JuegoDeDados
+	
+	numero_aleatorio = Azar(6)
+	adivino = Falso
+	
+	Mientras adivino = Falso  Hacer
+		Escribir "Ingrese un número entre 1 y 6:"
+		Leer numero
+		Si numero >= 1 Y numero <= 6 Entonces
+			Si numero = numero_aleatorio Entonces
+				Escribir "¡Adivinaste!"
+				adivino = Verdadero
+			Sino
+				Escribir "No adivinaste, vuelve a intentarlo"
+			FinSi
+		Sino
+			Escribir "Número inválido, ingrese nuevamente"
+		FinSi
+	FinMientras
+	
+FinAlgoritmo 
+
